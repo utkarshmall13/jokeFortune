@@ -8,7 +8,7 @@ jokeFortune is a fortune like program that get jokes from online database
 ./jokeFortune.py will give a randomly generated joke
 use 
 ```sh
-./jokeFortune.py | cowsay
+> ./jokeFortune.py | cowsay
 ```
 to get the jokes in cow's bubble,requires:
 ```sh
