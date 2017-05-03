@@ -12,7 +12,7 @@ try:
 	joke = "As an infant, Chuck Norris' parents gave him a toy hammer. He gave the world Stonehenge."
 	if('value' in A and 'joke' in A['value']):
 		joke = A['value']['joke']
-except socket.timeout:
+except:
 	joke = "The movie 'Invasion U.S.A. is, in fact, a documentary."
 
 joke = str.replace(joke,'&quot;',"'")
